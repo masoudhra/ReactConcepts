@@ -2,7 +2,7 @@
 
 function ChildB({number}) {
   return (
-    <div>
+    <div style={{border: "2px solid black", padding: "10px", margin: "20px"}}>
       <h3>Child B</h3>
       <p>{number}</p>
     </div>

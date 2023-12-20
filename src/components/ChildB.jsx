@@ -1,14 +1,13 @@
+import StylesDiv from "./StylesDiv";
 
-
-function ChildB({number, text}) {
+function ChildB({ number, text }) {
   return (
-    <div style={{border: "2px solid black", padding: "10px", margin: "20px"}}>
+    <StylesDiv>
       <h3>Child B</h3>
       <p>{number}</p>
       {text}
-    </div>
-    
-  )
+    </StylesDiv>
+  );
 }
 
-export default ChildB
+export default ChildB;
